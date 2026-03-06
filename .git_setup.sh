@@ -1,7 +1,10 @@
 #!/bin/bash
 
-echo "Installing Github CLI..."
+# [Git config]
+git config --global user.name  "Riworbi"
+git config --global user.email "riworbix@gmail.com"
 
+# [Github CLI]
 (type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \
 	&& sudo mkdir -p -m 755 /etc/apt/keyrings \
 	&& out=$(mktemp) && wget -nv -O$out https://cli.github.com/packages/githubcli-archive-keyring.gpg \
