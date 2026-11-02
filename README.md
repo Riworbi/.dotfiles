@@ -1,1 +1,1 @@
-.dotfiles repository 🐕
+.dotfiles/config  repository 🐕

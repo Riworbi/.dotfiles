@@ -1,0 +1,25 @@
+{
+    // terminal
+    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+    "window.zoomLevel": -1,
+    
+    // editor
+    "editor.fontFamily": "CaskaydiaCove Nerd Font",
+    "editor.minimap.enabled": false,
+    "chat.fontSize": 13,
+
+    // workbench
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+
+    // java
+    "java.autobuild.enabled": false,
+
+    // telemetry
+    "telemetry.editStats.enabled": false,
+    "telemetry.feedback.enabled": false,
+    "redhat.telemetry.enabled": false,
+    "editor.experimental.treeSitterTelemetry": false,
+
+    
+}
